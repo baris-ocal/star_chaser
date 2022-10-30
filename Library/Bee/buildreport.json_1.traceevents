@@ -1,0 +1,587 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667050817832128, "dur": 1383241, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050817832394, "dur": 2946, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050817835342, "dur": 32609, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050817867954, "dur": 648520, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050818516477, "dur": 687273, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050819203752, "dur": 11616, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050819215886, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667050818344221, "dur": 151212, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818345692, "dur": 43669, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818479264, "dur": 4435, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818483703, "dur": 11724, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818484546, "dur": 10287, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818500444, "dur": 1378, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667050818499142, "dur": 2707, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050819215967, "dur": 197, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667050818553595, "dur":1179, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050818554782, "dur":119, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667050818554945, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667050818554966, "dur":228, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667050818555222, "dur":567, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050818555789, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181488, "dur":127, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181615, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181625, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181627, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181634, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181636, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181642, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181644, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181652, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181654, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181659, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181661, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181668, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181683, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819181703, "dur":1694, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667050818555780, "dur":44, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818555824, "dur":2929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818558754, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667050818559011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818561710, "dur":8026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667050818569762, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667050818569791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818569841, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667050818571836, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667050818571864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818571871, "dur":164277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1667050818736201, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667050818736239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818736482, "dur":37189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1667050818773693, "dur":33070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818806766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818806772, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818809142, "dur":16409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818825554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818825562, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818826493, "dur":16581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818843079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818843086, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818844242, "dur":16365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818860612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818860620, "dur":4568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818865209, "dur":47659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818912870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818912875, "dur":14687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818927583, "dur":15156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818942744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818942751, "dur":9960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818952730, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818952920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818952925, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818953688, "dur":17977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818971670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818971681, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818972790, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818972961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818972967, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818974238, "dur":18200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818992443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050818992451, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050818994996, "dur":42624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819037623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819037631, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819038874, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819039127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819039133, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819040090, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819040256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819040262, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819041704, "dur":19118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819060824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819060829, "dur":6135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819066979, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819067122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819067127, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819068656, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819068797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819068803, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819070029, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819070408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819070413, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819073019, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819073158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819073163, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819074349, "dur":41054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819115406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819115413, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819116698, "dur":759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819117460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819117505, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819119300, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819119507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819119511, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819123617, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819124076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819124081, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819125258, "dur":1731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819126993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819126999, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819129482, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819130456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819130462, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819133739, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819134065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819134073, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819135389, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819135571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819135577, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819136682, "dur":3523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819140208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819140213, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667050819143875, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667050819143889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819143894, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667050819145340, "dur":5211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1667050819150558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819150568, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1667050819152281, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667050819152296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819152302, "dur":6849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667050819159179, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667050819159428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667050819159436, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667050819163019, "dur":18451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818555889, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818555889, "dur":2862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818558752, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667050818558786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818563760, "dur":6231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667050818570007, "dur":7636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667050818577646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818577655, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667050818578492, "dur":6071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667050818584566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818584572, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667050818588772, "dur":30505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050818619284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050818619532, "dur":64371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050818683919, "dur":386968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050819070889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050819070894, "dur":66558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050819137471, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050819137877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050819137883, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667050819140826, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667050819140839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050819140873, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142002, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142026, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142968, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667050819142985, "dur":38416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667050819181433, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1667050819181437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818555769, "dur":50, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818555819, "dur":2933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818558753, "dur":6845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667050818565600, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818565615, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1667050818568194, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667050818568221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818568592, "dur":3371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667050818571980, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667050818572002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818572299, "dur":4542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667050818576861, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667050818576888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818576940, "dur":8449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667050818585405, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667050818585434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818585444, "dur":98187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667050818683884, "dur":57933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818741821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818741922, "dur":6706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818748652, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818748843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818748911, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818749675, "dur":47967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818797645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818797652, "dur":26841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818824648, "dur":36609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818861261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818861268, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818865209, "dur":26473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818891687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818891694, "dur":14123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818905837, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818906046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818906052, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818907601, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818907804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818907810, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818908693, "dur":1836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818910550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818910557, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818912665, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818912847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818912851, "dur":16749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818929619, "dur":22165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818951789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818951817, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818952951, "dur":16348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818969303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818969312, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818970236, "dur":19239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818989480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818989487, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818990365, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818990532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050818990538, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050818991535, "dur":15699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819007238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819007247, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819008115, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819009124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819009131, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819010675, "dur":15936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819026617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819026626, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819028434, "dur":16637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819045075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819045081, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819047373, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819047573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819047579, "dur":2773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819050372, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819050548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819050555, "dur":6006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819056585, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819057132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819057140, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819060522, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819060697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819060704, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819063790, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819063980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819063985, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819067090, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819067324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819067329, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819068931, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819069858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819069863, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819072057, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819072218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819072225, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819074204, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819074595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819074604, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819075610, "dur":63015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819138628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819138634, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667050819139999, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1667050819140140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819140605, "dur":3744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1667050819144365, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1667050819144521, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819144525, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1667050819145439, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1667050819145502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819145520, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1667050819153021, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667050819153033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667050819153038, "dur":10276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667050819163328, "dur":18219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818555668, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818555797, "dur":2905, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818558710, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667050818558714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818559414, "dur":424, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667050818559845, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667050818559865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818560683, "dur":8012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1667050818568697, "dur":6172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667050818574873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818574882, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667050818575851, "dur":5469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667050818581324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818581332, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1667050818582061, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667050818582099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818582106, "dur":163682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1667050818745819, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818746068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818746259, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818747076, "dur":21892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818768971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818768980, "dur":7408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818776407, "dur":19328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818795739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818795747, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818796886, "dur":62326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818859217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818859225, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818864215, "dur":36329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818900559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818900568, "dur":22276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818922861, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818923453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818923460, "dur":5413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818928895, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818929077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818929084, "dur":14648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818943754, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818944124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818944130, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818944968, "dur":15951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818960923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818960931, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818963250, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818963479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818963499, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818965615, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818965888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818965894, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818967262, "dur":30446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050818997711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050818997716, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819001981, "dur":18084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819020073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050819020099, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819021063, "dur":16568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819037633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050819037639, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819039821, "dur":116770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819156612, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667050819156625, "dur":7032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667050819163675, "dur":17816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818555782, "dur":49, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818555831, "dur":2923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818558754, "dur":6459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667050818565218, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818565351, "dur":2430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667050818567800, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667050818567836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818567842, "dur":162944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1667050818730812, "dur":25272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667050818756089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818756095, "dur":12314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667050818768430, "dur":37893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818806327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818806335, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818807829, "dur":63971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818871805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818871811, "dur":38486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818910636, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818910962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818910967, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818911960, "dur":18306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818930270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818930277, "dur":11318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818941616, "dur":19553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818961172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818961176, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818963190, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818963408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818963415, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818964807, "dur":17169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818981979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818981987, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818982878, "dur":15115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050818997996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050818998002, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819002084, "dur":21390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819023479, "dur":262, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819023784, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819024883, "dur":16931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819041816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819041823, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819043736, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819043917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819043923, "dur":807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819044745, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819045096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819045100, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819047141, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819047618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819047623, "dur":2924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819050561, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819050781, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819050786, "dur":7289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819058099, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819058244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819058250, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819062420, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819062586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819062593, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819063900, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819064094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819064100, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819067629, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819067764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819067769, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819069263, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819069483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819069490, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819071394, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819071540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819071546, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819074798, "dur":23276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819098078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819098085, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819099174, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819099343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819099350, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819100274, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819100480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819100487, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819101347, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819101505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819101511, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819102417, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819102573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819102579, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819103345, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819103504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819103510, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819104618, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819104820, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819104827, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819105615, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819105852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819105860, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819106758, "dur":2367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819109129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819109136, "dur":3188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819112345, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819112534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819112540, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819113698, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819114024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819114032, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819115107, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819115483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819115488, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819117107, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819117241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819117247, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819118206, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819118478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819118484, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819119359, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819119497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819119503, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819121553, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819121779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819121785, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819123370, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819123551, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819123557, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819124373, "dur":2064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819126442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819126454, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819129437, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819129710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819129716, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819130479, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819130683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819130688, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819135080, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819135661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819135666, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819136851, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819137144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819137150, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819138187, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819138330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819138334, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819139141, "dur":15632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819154776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667050819162398, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667050819164426, "dur":17070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818556011, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818556011, "dur":2713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818558725, "dur":25604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667050818584333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818584526, "dur":4080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667050818588630, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1667050818588689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818588696, "dur":96155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1667050818684872, "dur":117929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667050818802805, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818802813, "dur":5506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1667050818808341, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818808521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818808528, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818809345, "dur":31537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818840886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818840893, "dur":15911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818857216, "dur":55550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818912768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818912775, "dur":9325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818922118, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818922427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818922436, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818923613, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818923788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818923809, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818928126, "dur":33021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818961149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818961154, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818962616, "dur":14966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818977587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818977594, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818978553, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818978710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818978716, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818979549, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818979805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818979811, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818981337, "dur":16247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050818997590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050818997598, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819003047, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819003270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819003329, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819004185, "dur":19566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819023754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819023760, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819025271, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819025475, "dur":81, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819025713, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819026730, "dur":24993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819051727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819051735, "dur":7099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819058851, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819059038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819059044, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819062920, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819063096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819063102, "dur":2882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819066007, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819066166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819066174, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819067995, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819068130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819068134, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819069288, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819069523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819069528, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819071989, "dur":871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819072863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819072869, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819074817, "dur":69665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819144485, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819144494, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667050819145551, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667050819145564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819145568, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667050819152279, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1667050819152296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819152302, "dur":1927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1667050819154248, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1667050819154263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667050819154268, "dur":9058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1667050819163339, "dur":18162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667050819184791, "dur":1761, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667050819216203, "dur": 617, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667050819215873, "dur": 966, "ph": "X", "name": "Write chrome-trace events", "args": {} },
