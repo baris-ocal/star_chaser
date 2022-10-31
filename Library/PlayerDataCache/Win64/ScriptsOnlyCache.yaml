@@ -84,7 +84,6 @@ ScriptsOnlyBuild:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     - UnityEditor.ShaderGraph.SubGraphAsset
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
@@ -97,10 +96,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -194,18 +191,6 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: QuitGame
   - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnIncrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
-    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
-    methodName: OnDecrement
-  - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
   - assembly: Unity.RenderPipelines.Core.Runtime
@@ -223,6 +208,18 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
     methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
@@ -254,8 +251,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
     - Class: 91
@@ -265,7 +260,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 866}
+      Script: {instanceID: 864}
+    - Class: 114
+      Script: {instanceID: 1752}
     - Class: 114
       Script: {instanceID: 1754}
     - Class: 114
@@ -275,141 +272,139 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 2066}
     - Class: 114
-      Script: {instanceID: 1954}
+      Script: {instanceID: 2212}
     - Class: 114
-      Script: {instanceID: 2100}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 2278}
+      Script: {instanceID: 2700}
     - Class: 114
-      Script: {instanceID: 2586}
+      Script: {instanceID: 2800}
     - Class: 114
-      Script: {instanceID: 2686}
+      Script: {instanceID: 3010}
     - Class: 114
-      Script: {instanceID: 2896}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3618}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 3582}
+      Script: {instanceID: 3840}
     - Class: 114
-      Script: {instanceID: 3724}
+      Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 3742}
+      Script: {instanceID: 4386}
     - Class: 114
-      Script: {instanceID: 4270}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 4996}
+      Script: {instanceID: 5256}
     - Class: 114
-      Script: {instanceID: 5140}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 5332}
     - Class: 114
-      Script: {instanceID: 5216}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 5390}
+      Script: {instanceID: 5524}
     - Class: 114
-      Script: {instanceID: 5408}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 5892}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 6028}
     - Class: 114
-      Script: {instanceID: 5912}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 6104}
     - Class: 114
-      Script: {instanceID: 5988}
+      Script: {instanceID: 6208}
     - Class: 114
-      Script: {instanceID: 6092}
+      Script: {instanceID: 6280}
     - Class: 114
-      Script: {instanceID: 6164}
+      Script: {instanceID: 6418}
     - Class: 114
-      Script: {instanceID: 6302}
+      Script: {instanceID: 6670}
     - Class: 114
-      Script: {instanceID: 6554}
+      Script: {instanceID: 6860}
     - Class: 114
-      Script: {instanceID: 6744}
+      Script: {instanceID: 7564}
     - Class: 114
-      Script: {instanceID: 7448}
+      Script: {instanceID: 7682}
     - Class: 114
-      Script: {instanceID: 7566}
+      Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8372}
+      Script: {instanceID: 8552}
     - Class: 114
-      Script: {instanceID: 8436}
+      Script: {instanceID: 8698}
     - Class: 114
-      Script: {instanceID: 8582}
+      Script: {instanceID: 8876}
     - Class: 114
-      Script: {instanceID: 8760}
+      Script: {instanceID: 8950}
     - Class: 114
-      Script: {instanceID: 8834}
+      Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9300}
+      Script: {instanceID: 9516}
     - Class: 114
-      Script: {instanceID: 9400}
+      Script: {instanceID: 9526}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 9812}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 10072}
     - Class: 114
-      Script: {instanceID: 9956}
+      Script: {instanceID: 10180}
     - Class: 114
-      Script: {instanceID: 10064}
+      Script: {instanceID: 10450}
     - Class: 114
-      Script: {instanceID: 10334}
+      Script: {instanceID: 10520}
     - Class: 114
-      Script: {instanceID: 10404}
+      Script: {instanceID: 10646}
     - Class: 114
-      Script: {instanceID: 10530}
+      Script: {instanceID: 10776}
     - Class: 114
-      Script: {instanceID: 10660}
+      Script: {instanceID: 11158}
     - Class: 114
-      Script: {instanceID: 11042}
+      Script: {instanceID: 11216}
     - Class: 114
-      Script: {instanceID: 11100}
+      Script: {instanceID: 11402}
     - Class: 114
-      Script: {instanceID: 11286}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11398}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 11556}
+      Script: {instanceID: 11744}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 11778}
     - Class: 114
-      Script: {instanceID: 11662}
+      Script: {instanceID: 11856}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 12000}
     - Class: 114
-      Script: {instanceID: 11884}
+      Script: {instanceID: 12118}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 12130}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12096}
+      Script: {instanceID: 12224}
     - Class: 114
-      Script: {instanceID: 12108}
+      Script: {instanceID: 12310}
     - Class: 114
-      Script: {instanceID: 12194}
+      Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 12356}
+      Script: {instanceID: 12856}
     - Class: 114
-      Script: {instanceID: 12740}
+      Script: {instanceID: 13172}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13300}
     - Class: 114
-      Script: {instanceID: 13184}
-    - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 13636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -455,12 +450,6 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
-  - hash:
-      serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -471,6 +460,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
   - hash:
       serializedVersion: 2
       Hash: f69dfc6409fbbd89d3689368e99688a8
@@ -2286,4 +2281,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/barisocal/Desktop/StarChaser-WIN/Star Chaser.exe
+  playerPath: "C:/Users/baris/OneDrive/Masa\xFCst\xFC/StarChaserB2-WIN/Star Chaser.exe"
